@@ -80,8 +80,11 @@ let courses = [
 //     return course.Fee <= 50;
 //   }
 
+// let lowCostCourses = courses.filter(getCoursesWithPrice);
 
-// console.log(courses.filter(getCoursesWithPrice));
+// for( let i=0; i<lowCostCourses.length; i++){
+//   console.log(lowCostCourses[i].Title)
+// }
 
 
 // ========2nd way by writing an arrow function======//
@@ -91,6 +94,15 @@ let courses = [
 // console.log(outPut3);
 
 
+// ========3rd way by using foreach method======//
+
+// function getCoursesWithPrice(course) {
+//   if(course.Fee <= 50){
+//     console.log(course.Title);
+//   }
+//   }
+
+// courses.forEach(getCoursesWithPrice);
 
 // What classes meet in "Classroom 1"?
 
@@ -99,7 +111,11 @@ let courses = [
 //   return course.Location === "Classroom 1";
 // }
 
-// console.log(courses.filter(getClassesByClassroom))
+// let classroom1Classes = courses.filter(getClassesByClassroom);
+
+// for(let i=0; i < classroom1Classes.length; i++){
+//   console.log(classroom1Classes[i].Title)
+// }
 
 // ========2nd way by writing an arrow function======//
 // let classRoom1Classes = courses.filter((course) => course.Location === "Classroom 1").map((course) => course.Title);
