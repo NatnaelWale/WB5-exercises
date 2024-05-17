@@ -25,18 +25,23 @@ let academyMembers = [
 
 
 
-// Who is the Academy Member whose ID is 187?
+// Who is the Academy Member whose ID is 187???????????????????
 
-// using find method
+
+// using find method=================================
+
 
 // console.log(academyMembers.find((value) => value.memID === 187).name);
 
-// using filter method
+
+// using filter method===============================
+
 
 // console.log(academyMembers.filter((value) => value.memID === 187).map((item) => item.name ))
 
 
-// using foreach method
+// using foreach method===============================
+
 
 // function checkActorWithId(item){
 //     if(item.memID === 187){
@@ -45,7 +50,9 @@ let academyMembers = [
 // }
 // academyMembers.forEach(checkActorWithId)
 
-// Using map method
+
+// Using map method===================================
+
 
 // console.log(academyMembers.map((item)=> item.memID === 187))
 
@@ -58,7 +65,8 @@ let academyMembers = [
 // console.log(academyMembers.map(checkWithMemId).filter(item => item !== undefined));
 
 
-// Using reduce method
+// Using reduce method==============================
+
 
 // const checkWithId = academyMembers.reduce((acc, curr) => {
 //     if(curr.memID === 187){
@@ -73,20 +81,24 @@ let academyMembers = [
 
 
 
-// Who has been in at least 3 films?
+// Who has been in at least 3 films???????????????????????
 
-// Using find method
+
+// Using find method====================================
+
 
 // console.log(academyMembers.find((item) => item.films.length >= 3).name)
 
 
 
-// Using filter method
+// Using filter method==================================
+
 
 // console.log(academyMembers.filter((item) => item.films.length >= 3).map(item => item.name))
 
 
-// Using foreach method
+// Using foreach method================================
+
 
 // let checkNumberOfMovies = academyMembers.forEach((item) => {
 //     if(item.films.length >= 3){
@@ -95,7 +107,8 @@ let academyMembers = [
 // });
 
 
-// Using map method
+// Using map method===================================
+
 
 // const moreThan3Movies = academyMembers.map((item) => {
 //     if(item.films.length >= 3){
@@ -115,7 +128,7 @@ let academyMembers = [
 
 
 
-// Using reduce method
+// Using reduce method===============================
 
 // const checkNumOfMovies = academyMembers.reduce((acc, curr) => {
 //     if( curr.films.length >= 3){
@@ -130,24 +143,27 @@ let academyMembers = [
 
 
 
-// Who has a name that starts with "Bob"?
+// Who has a name that starts with "Bob"????????????????
 
 
 
-// Using find method
+// Using find method==================================
+
 
 // console.log(academyMembers.find((item) => item.name.includes("Bob")).name)
 
 
 
 
-// Using filter method
+// Using filter method================================
+
 
 // console.log(academyMembers.filter((item) => item.name.includes("Bob")).map(item => item.name))
 
 
 
-// Using foreach method
+// Using foreach method================================
+
 
 // const checkBobName = academyMembers.forEach((item) => {
 //     if(item.name.includes("Bob")){
@@ -156,7 +172,8 @@ let academyMembers = [
 // });
 
 
-// Using map method
+// Using map method===================================
+
 
 // const checkNameWithBob = academyMembers.map((item) => {
 //     if(item.name.includes("Bob")){
@@ -177,7 +194,8 @@ let academyMembers = [
 
 
 
-// Using Reduce method
+// Using Reduce method=================================
+
 
 // const nameWithBob = academyMembers.reduce((acc, curr) => {
 //     if(curr.name.includes("Bob")){
@@ -190,10 +208,11 @@ let academyMembers = [
 
 
 
-// HARDER: Which Academy Members have been in a film that starts with "A"
+// HARDER: Which Academy Members have been in a film that starts with "A"??????????
 
 
-// Using find method
+// Using find method======================================
+
 
 // console.log(academyMembers.find((item) => {
 //     let movies = item.films
@@ -205,7 +224,7 @@ let academyMembers = [
 // }).name);
 
 
-// Using filter method
+// Using filter method==================================
 
 
 // console.log(academyMembers.filter((item) => {
@@ -218,7 +237,7 @@ let academyMembers = [
 // }).map(item => item.name));
 
 
-// Using foreach method
+// Using foreach method=================================
 
 
 //  const moviesWithA = academyMembers.forEach((item) => {
@@ -231,7 +250,7 @@ let academyMembers = [
 // });
 
 
-// Using map method
+// Using map method====================================
 
 
 // const mapAMovie = academyMembers.map((item) => {
@@ -244,7 +263,7 @@ let academyMembers = [
 // })
 
 
-// Using reduce method
+// Using reduce method==================================
 
 
 // const reducedMovieWithA = academyMembers.reduce((acc, curr) => {

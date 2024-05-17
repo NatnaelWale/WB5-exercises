@@ -13,9 +13,11 @@ let products = [
   { product: "Plain sweet", price: 0.69 },
 ];
 
-// Which candies costs less than $4.00?
+// Which candies costs less than $4.00????????????????????
 
-// Using find method which return the first element that matches the requirement
+
+
+// Using find method which return the first element that matches the requirement============
 
 //    function lessThanFourbucks(value){
 // return value.price < 4;
@@ -23,7 +25,7 @@ let products = [
 
 //    console.log(products.find(lessThanFourbucks).product)
 
-// Using the filter method that return an array of the results that satisfy the condition
+// Using the filter method that return an array of the results that satisfy the condition===========
 
 // function lessThanFourbucks(value) {
 //   return value.price < 4;
@@ -36,7 +38,7 @@ let products = [
 // }
 
 
-// Using the forEach method
+// Using the forEach method===========================
 
 // function lessThanFourbucks(value){
 //    if(value.price < 4){
@@ -47,7 +49,7 @@ let products = [
 // products.forEach(lessThanFourbucks)
 
 
-// using map method
+// using map method================================
 
 // function lessThanFourbucks(value) {
 //   if(value.price < 4){
@@ -57,7 +59,7 @@ let products = [
 
 // products.map(lessThanFourbucks)
 
-// using reduce method
+// using reduce method========================
 
 // let lessThan4Candy = products.reduce((acc, curr) => {
 //    if(curr.price < 4){
@@ -70,9 +72,9 @@ let products = [
 
 
 
-// Which candies has "M&M" its name?
+// Which candies has "M&M" its name????????????????????
 
-// Using the find() method
+// Using the find() method=========================
 
 // let mAndMProducts = products.find((value) => value.product.includes("M&M"));
 
@@ -80,7 +82,7 @@ let products = [
 // console.log(mAndMProducts)
 
 
-// Using the filter method
+// Using the filter method==========================
 
 // let mAndMProduct = products.filter((value) => value.product.includes("M&M"));
 
@@ -88,7 +90,7 @@ let products = [
 // console.log(mAndMProduct)
 
 
-// using the foreach method
+// using the foreach method=========================
 
 // function mAndMproducts(item){
 //     if(item.product.includes("M&M")){
@@ -98,7 +100,7 @@ let products = [
 // products.forEach(mAndMproducts);
 
 
-// using map method
+// using map method================================
 
 // function mAndMproducts(item){
 //     if(item.product.includes("M&M")){
@@ -108,7 +110,7 @@ let products = [
 
 // products.map(mAndMproducts);
 
-// using reduce() method
+// using reduce() method==========================
 
 // let getMandM = products.reduce((acc, curr) => {
 //     if(curr.product.includes("M&M")){
@@ -122,9 +124,9 @@ let products = [
 
 
 
-// Do we carry "Swedish Fish"?
+// Do we carry "Swedish Fish"???????????????????????
 
-// using find method
+// using find method===============================
 
 // function checkWeCarrySwedishFish(item){
 //     return item.product === "Swedish Fish";
@@ -133,7 +135,7 @@ let products = [
 // console.log(products.filter(checkWeCarrySwedishFish).product);
 
 
-// using filter method 1
+// using filter method 1============================
 
 // function checkIfWeCarrySwedishFish(v){
 //     if(v.product.includes("Swedish Fish")){
@@ -144,7 +146,7 @@ let products = [
 // products.filter(checkIfWeCarrySwedishFish);
 
 
-// using filter method 2
+// using filter method 2==========================
 
 
 // function checkWeCarrySwedishFish(item){
@@ -155,7 +157,7 @@ let products = [
 
 
 
-// Using foreach method
+// Using foreach method==========================
 
 // function checkMandM(val){
 //     if(val.product === "Swedish Fish"){
@@ -169,7 +171,7 @@ let products = [
 
 
 
-// Using reduce method
+// Using reduce method================================
 
 // let checkIfWeHaveSwedish = products.reduce((acc, curr) => {
 //     if(curr.product === "Swedish Fish"){
